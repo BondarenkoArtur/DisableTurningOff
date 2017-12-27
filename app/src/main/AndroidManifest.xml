@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ga.uabart.disableturningoff">
+
+    <application
+        android:icon="@android:drawable/ic_dialog_info"
+        android:label="Disable Turning off">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Disable phone turning off on low battery charge" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="36" />
+
+    </application>
+
+</manifest>
